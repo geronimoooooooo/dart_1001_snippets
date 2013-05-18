@@ -1,0 +1,5 @@
+  var list = new List();
+  list.add("stringName");
+  
+  list.forEach((e)=> print("element: "+e));
+  //element: stringName
