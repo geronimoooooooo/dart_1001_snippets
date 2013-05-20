@@ -1,3 +1,7 @@
   var time = 3;
   new Timer(new Duration(seconds:time), () => print('timer: '+ time.toString()));
   print(time.toString()+'$time seconds later...');
+
+----------------------------------
+
+new Timer.periodic(new Duration(seconds : 2),(Timer timer)=>print("hi"));
