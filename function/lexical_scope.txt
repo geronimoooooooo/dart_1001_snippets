@@ -1,0 +1,5 @@
+A function can access variables from a surrounding scope.
+1 outerFunction can have an innerFunction. 
+The innerFunction can access variables which are in the scope of the outerFunction.
+
+https://docs.google.com/presentation/d/1dnz-3b4-KsdgTnLDzI381SILc26fCgyuuYLbe96gBC0/edit#slide=id.g2e601c10_0_162
