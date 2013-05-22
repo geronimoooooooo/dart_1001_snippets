@@ -7,3 +7,6 @@
 ----------------------------------
 
 new Timer.periodic(new Duration(seconds : 2),(Timer timer)=>print("hi"));
+
+
+ new Timer(new Duration(seconds:retrySeconds), () => _init(retrySeconds * 2));
