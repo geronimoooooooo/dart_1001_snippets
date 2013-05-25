@@ -12,7 +12,9 @@ Then, for your app, use this command to create a single .dart file that contains
 
 dart2js --output-type=dart --minify -oapp.complete.dart app.dart
 
-This is the fabled "dart2dart" which takes a Dart app, tree shakes it, minifies it, and generates a single .dart file ready to go. This is nice because it pulls in dependencies like 3rd party libraries (and tree shakes it to eliminate the unused parts) so you don't need to run 'pub install' on the target machine.
+This is the fabled "dart2dart" which takes a Dart app, tree shakes it, minifies it, and generates a 
+single .dart file ready to go. This is nice because it pulls in dependencies like 3rd party libraries 
+(and tree shakes it to eliminate the unused parts) so you don't need to run 'pub install' on the target machine.
 
 
 You'll want the Dart VM and your tree-shaken Dart file.
