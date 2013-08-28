@@ -28,4 +28,13 @@ void main(){
   print(jo);
   if(jo.toString().contains("k2"))
     print("fasdf");
+  
+  Map map2 =  new Map();
+  map2["e1"]="ele1";
+  map2["e2"]="ele2";
+  map2["mapdict"]= new Map();
+  map2["mapdict"]["f1"]="foo1";
+  String str_map = JSON.stringify(map2); //transform map to json string
+  print("this is map: $map2"); //+map2 will not work
+  print("this is json from map: "+str_map);
 }
