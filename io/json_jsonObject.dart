@@ -21,7 +21,10 @@ void main(){
   jo.list.forEach((e)=>print("liste:" +e));
   jo.mapDict.forEach((key, value) => print("$key=$value")); 
  
-  jo.list.add("tri");
+  jo.addAll({"k2":"v2"}); //add new kv element
+  jo.list.add("tri");// add new element to list
+  jo.mapDict.addAll({"k3":"v3"});
+  
   print(jo);
   if(jo.toString().contains("k2"))
     print("fasdf");
